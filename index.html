@@ -1,0 +1,64 @@
+<!-- Para agregar un comentario rapido, se pueden con el comando Crtl + k + c. Se usa en cualquier lenguaje -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Se usa el comando link:css para juntar el archivo .html con el archivo .css -->
+    <link rel="stylesheet" href="style.css">
+    <title>PPW | Ivan Lobaton</title>
+</head>
+<body>
+    <!-- "h1" se utiliza para agregar titulos. Va del "h1" al "h6". -->
+    <h1>Currículum</h1>
+    <!-- Se usa "strong" se usa para generar texto con negrilla. -->
+    <strong>Nombre: </strong>Ivan Lobaton<br>
+    <strong>Direccion: </strong>Cra. 151D #138-71<br>
+    <!-- Se usa "a" para poner hipervinculos. 
+        Se puede poner cualquier texto sin necesidad de poner directamente el link. -->
+    <a href="mailto:ivanlobaton2017@gmail.com">Correo electronico</a>
+
+    <!-- Se usa "div" seguido de "class" ya que esto nos ayudara a agregar estilo a
+    esta parte especifica del codigo. Si se escribe el mismo nombre, en este caso
+    "habilidades", si hay otra parte con ese nombre, tambien se modificara. -->
+    <div class="habilidades">
+    <h2>Habilidades</h2>
+    <!-- Se usa "ul" y "li" para poner en lista no enumerada.
+        Para poner una lista enumerada se usa "ol" -->
+    <ul>
+    <li>Desarrollador Web</li>
+    <li>Ayudante de documentacion</li>
+    </ul>
+    </div>
+
+    <div class="redes">
+    <h2>Redes sociales</h2>
+    <!-- Se combina "ul" con "a" para agregar links y, que estos esten en una lista.
+    Se coloca un "div" seguido de "id" para aplicar un estilo distindo en CSS de lo que se selecciona. -->
+    <div id="social">
+    <ul>
+        <li><a href="https://github.com/microsoft">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/company/microsoft">LinkedIn</a></li>
+        <li><a href="https://twitter.com/microsoft">Twitter</a></li>
+    </ul>
+    </div>
+    </div>
+
+    <div class="universidad">
+    <h3>Universidad Minuto de Dios (Uniminuto)</h3>
+    <h4>Lo mas destacado: </h4>
+    <div id="general">
+    <ul>
+        <li><strong>Carrera: </strong>Ingeniero de Sistenas</li>
+        <li><strong>Promedio: </strong>4.0</li>
+        <li><strong>Años cursados: </strong>5 Años</li>
+    </ul>
+    </div>
+    </div>
+
+    <div class="experiencia">
+    <h3>Experiecia de trabajo</h3>
+    <p>Ninguna</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+/* Al poner "html" seguido de las llaves, se modificara todo lo que contenga ".html".
+En este caso, se indica que se cambie la fuente de la pagina y el tamaño de fuente.
+"font-family es para cambiar la fuente y font-size para cambiar el tamaño de fuente." */
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+/* Al poner "h1" se guido de las llaves, se modificara los textos que esten en "h1".
+Al poner "color" seguido de algun nombre, o en su defecto, de algun codigo de color,
+todos los textos que esten en "h1" apareceran con dicho color.
+Se una "font-size" para poner a "1.6rem" el tamaño de la pagina (12px). */
+h1 {
+    font-size: 1.6rem;
+    color: gray;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+h4 {
+    font-size: 1.1rem;
+}
+
+/* Al  haber pueso un "div" seguido de una clase con un nombre, en este caso, "redes" en el ".html",
+al momento de pasar al css y escribir .redes, este unicamente modificara esa parte de la pagina.
+Si se quiere agregar mas palabras, solo se puede con "-" y no con espacios. */
+.habilidades {
+    color: darkmagenta;
+}
+.redes {
+    color: blue;
+}
+
+.universidad {
+    color: green;
+}
+
+.experiencia {
+    color: red;
+}
+
+/* Al tener un "div", seguido de un "id", se puede seleccionar secciones especificas de una clase y,
+por ende, se modificara solo la seccion especifica de dicho "div". Aqui en vez de un punto (.), se pone
+un asterisco (#). */
+#social {
+    color: chocolate;
+}
+
+#general {
+    color: darkblue;
+}
+
+/* Para establecer el color de fondo de un vínculo en amarillo cuando un usuario mantiene el 
+cursor sobre él, puede usar el siguiente CSS. */
+a:hover {
+    background-color: yellow;
+}
+
+a:visited {
+    color: green;
+}
+
+a:link {
+    color: green;
+}
